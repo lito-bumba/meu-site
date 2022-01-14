@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 100%;
+}
+
+.cabecalho{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu{
+    display: flex;
+    gap: 60px;
+}
+
+.menu{
+    margin: 0;
+    padding: 0;
+}
+
+.menu-item{
+    color: black;
+    font-size: 12pt;
+    font-weight: 600;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    padding: 0 10px;
+}
+
+.logo{
+    width: 100px;
+}
+
+.conteudo{
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 450px;
+    padding-top: 30px;
+    border-top: 3px solid rgba(0, 0, 0, 0.7);
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-imagem{
+    height: 400px;
+    width: 300px;
+}
+
+.conteudo-descricao{
+    margin-top: -10px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.conteudo-titulo{
+    color: black;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    font-size: 2.6em;
+    font-weight: bolder;
+}
+
+.conteudo-descricao-item{
+    border-top: 2px dotted black;
+    width: 62%;
+    color: black;
+    font-size: 20pt;
+}
+
+.conteudo-descricao-item-1{
+    margin-top: 2px;
+    font-size: 2.4em;
+}
+
+.ultimo-texto{
+    display: flex;
+    color: black;
+    border-bottom: 2px dotted black;
+}
+
+.ultimo-texto p{
+    margin-top: -10px;
+    font-size: 15pt;
+    font-weight: bolder;
+}
+.ultimo-texto h2{
+    margin-top: -10px;
+    font-size: 2em;
+}
+
+.conteudo-descricao button{
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 13pt;
+    font-weight: bold;
+    height: 38px;
+    width: 160px;
+}
