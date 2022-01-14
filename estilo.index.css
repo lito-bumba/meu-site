@@ -20,6 +20,9 @@ body{
     justify-content: space-around;
 }
 
+/*Cabeçalho*/
+.logo{ width: 100px; }
+
 .menu{
     display: flex;
     gap: 60px;
@@ -38,32 +41,27 @@ body{
     border-right: 2px solid black;
     padding: 0 10px;
 }
+/*Cabeçalho*/
 
-.logo{
-    width: 100px;
-}
-
-.conteudo{
+/*Conteúdo 1*/
+.conteudo-1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
     background-color: rgba(0, 0, 0, 0.1);
     height: 450px;
     padding-top: 30px;
     border-top: 3px solid rgba(0, 0, 0, 0.7);
 }
 
-.conteudo-principal{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.conteudo-principal-imagem{
+.conteudo-1-imagem{
     height: 400px;
     width: 300px;
 }
 
-.conteudo-descricao{
+.conteudo-1-descricao{
     margin-top: -10px;
     height: 380px;
     display: flex;
@@ -71,7 +69,7 @@ body{
     justify-content: space-around;
 }
 
-.conteudo-titulo{
+.conteudo-1-titulo{
     color: black;
     text-align: center;
     font-family: 'Comfortaa', cursive;
@@ -79,19 +77,19 @@ body{
     font-weight: bolder;
 }
 
-.conteudo-descricao-item{
+.conteudo-1-descricao-item{
     border-top: 2px dotted black;
     width: 62%;
     color: black;
     font-size: 20pt;
 }
 
-.conteudo-descricao-item-1{
+.conteudo-1-descricao-item-1{
     margin-top: 2px;
     font-size: 2.4em;
 }
 
-.ultimo-texto{
+.conteudo-1-ultimo-texto{
     display: flex;
     color: black;
     border-bottom: 2px dotted black;
@@ -107,7 +105,8 @@ body{
     font-size: 2em;
 }
 
-.conteudo-descricao button{
+.conteudo-1-descricao button{
+    margin-top: 10px;
     background-color: white;
     border: 2px solid black;
     border-radius: 10px;
@@ -116,3 +115,25 @@ body{
     height: 38px;
     width: 160px;
 }
+/*Conteúdo 1*/
+
+/*Conteúdo 2*/
+.conteudo-2{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 450px;
+    padding-top: 30px;
+}
+
+.conteudo-2-video{
+    border: 2px solid gray;
+    width: 500px;
+    height: 400px;
+}
+
+.conteudo-2-descricao{
+    width: 200px;
+}
+/*Conteúdo 2*/
