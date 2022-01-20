@@ -10,19 +10,19 @@
 </head>
 <body>
 
-    <header class="cabecalho">
+    <header id="cabecalho" class="cabecalho">
         <a href="index.html"><img class="logo" src="multimedia/logo.png" alt="Logo"></a>
         <nav class="menu">
-            <a class="menu-item" href="#">Conteúdos</a>
-            <a class="menu-item" href="#">Portfolios</a>
-            <a class="menu-item" href="#">Contactos</a>
-            <a class="menu-item" href="#">Sobre</a>
+            <a class="menu-item" href="#conteudos">Conteúdos</a>
+            <a class="menu-item" href="#portfolio">Portfólios</a>
+            <a class="menu-item" href="#sobre">Conheça-me</a>
+            <a class="menu-item" href="#contactos">Contactos</a>
         </nav>
     </header>
     
     <main class="conteudo">
         <section class="conteudo-1">
-            <img class="conteudo-1-imagem" src="1d.png" alt="Lito Bumba"/>
+            <img class="conteudo-1-imagem" src="multimedia/photo.png" alt="Lito Bumba"/>
             <div class="conteudo-1-descricao">
                 <h1 class="conteudo-1-titulo">Oi! Sou Lito Bumba</h1>
                 <div class="conteudo-1-texto">
@@ -36,23 +36,85 @@
                 <a href="#conteudo"><button>Ver Conteúdos</button></a>
             </div>
         </section>
-        
-        <hr>
-        <section class="conteudo-2">
-            <div class="conteudo-2-video">
-            </div>
+
+        <section id="conteudos" class="conteudo-2">
+            <video class="conteudo-2-video" autoplay="true" loop="true">
+                <source src="multimedia/contegudo.mp4">
+            </video>
             <div class="conteudo-2-descricao">
-                <h1 class="conteudo-2-titulo">Canal</h1>
-                <p>Crio e Compartilho diversos conteúdo <br> que ficam disponíveis e acessíveis <br> nas plataformas comum como </p>
+                <h1 class="conteudo-2-titulo">Meu Canal</h1>
+                <p>Crio e Compartilho diversos conteúdo <br> que ficam disponíveis e acessíveis no <br>meu canal do Youtube</p>
+                <button>Ver Canal</button>
             </div>
         </section>
-        <hr>
+
+        <section id="portfolio" class="conteudo-3">
+            <h1 class="conteudo-3-titulo">Portfólios</h1>
+            <div class="conteudo-3-descricao">
+                <div class="card-portfolio">
+                    <h3 class="card-portfolio-tipo">Website</h3>
+                    <img class="card-portfolio-imagem" src="multimedia/IMG_20210818_093835.jpg" alt="Portfólio"/>
+                </div>
+                <div class="card-portfolio">
+                    <h3 class="card-portfolio-tipo">App</h3>
+                    <img class="card-portfolio-imagem" src="multimedia/IMG_20210818_093835.jpg" alt="Portfólio"/>
+                </div>
+                <div class="card-portfolio">
+                    <h3 class="card-portfolio-tipo">Website</h3>
+                    <img class="card-portfolio-imagem" src="multimedia/IMG_20210818_093835.jpg" alt="Portfólio"/>
+                </div>
+                <div class="card-portfolio">
+                    <h3 class="card-portfolio-tipo">Website</h3>
+                    <img class="card-portfolio-imagem" src="multimedia/IMG_20210818_093835.jpg" alt="Portfólio"/>
+                </div>
+                <div class="card-portfolio">
+                    <h3 class="card-portfolio-tipo">Website</h3>
+                    <img class="card-portfolio-imagem" src="multimedia/IMG_20210818_093835.jpg" alt="Portfólio"/>
+                </div>
+                <div class="card-portfolio">
+                    <h3 class="card-portfolio-tipo">App</h3>
+                    <img class="card-portfolio-imagem" src="multimedia/IMG_20210818_093835.jpg" alt="Portfólio"/>
+                </div>
+                <div class="card-portfolio">
+                    <h3 class="card-portfolio-tipo">Website</h3>
+                    <img class="card-portfolio-imagem" src="multimedia/IMG_20210818_093835.jpg" alt="Portfólio"/>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre" class="sobre">
+            <h1 class="sobre-titulo">Conheça-me</h1>
+            <hr>
+            <div class="sobre-conteudo">
+                <img class="sobre-imagem" src="multimedia/photo.png" alt="Lito Bumba"/>
+                <div class="sobre-textos">
+                    <p>Apaixonado por Técnologia desde muito cedo, atualmente cursando Análise e Desenvolvimento de Sistemas
+                        na UniAmérica - Centro Universitário
+                    </p>
+                    <p>
+                        Atualmente atuo como Desenvolvedor de Aplicativos para a Plataforma Android, e contínuo cada vez mais
+                        interessado em aprender, praticar e ensinar assuntos relacionados à técnologia 
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <button id="topo" class="topo"><i><img src="./icons8-up-24.png"/></i></button>
 
     </main>
 
-    <footer>
-
+    <footer id="contactos" class="rodape">
+        <p>Copyright &copy; 2022 Lito Bumba</p>
+        <div class="rodape-redes">
+            <a href="#"><img class="rodape-redes-item" src="sgv/icons8-github.svg" alt="GitHub"></a>
+            <a href="#"><img class="rodape-redes-item" src="sgv/icons8-facebook-num-círculo.svg" alt="Facebook"></a>
+            <a href="#"><img class="rodape-redes-item" src="sgv/icons8-instagram.svg" alt="Instagram"></a>
+            <a href="#"><img class="rodape-redes-item" src="sgv/icons8-twitter.svg" alt="Twitter"></a>
+            <a href="#"><img class="rodape-redes-item" src="sgv/icons8-linkedin.svg" alt="LinkedIn"></a>
+        </div>
     </footer>
+
+    <script src="eventos.js"></script>
     
 </body>
 </html>
